@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
   crossorigin="anonymous"
 />
 import {Link} from 'react-router-dom';
+
 const Navbar = () =>{
     
 return(
@@ -21,11 +22,12 @@ return(
        <Link  class="badge rounded-pill bg-secondary" to="/Request"><li>Request</li></Link>
         
     <Link  class="badge rounded-pill bg-secondary" to="/Profile" >   <li>Profile</li> </Link> 
- 
     <Link  class="badge rounded-pill bg-secondary" to="/Invoice" >   <li>Invoice</li> </Link>
+    <Link  class="badge rounded-pill bg-secondary" to="/EditProfile" >   <li>EditProfile</li> </Link>
     <Link  class="badge rounded-pill bg-secondary" to="/Registration" >   <li>Registration</li> </Link>
     <Link  class="badge rounded-pill bg-secondary" to="/CustomerRegister" >   <li>CustomerRegister</li> </Link>
-   
+    {/* <Link  class="badge rounded-pill bg-secondary" to="/Approve" >   <li>Approve</li> </Link> */}
+  
     
      </ul>
     </nav>

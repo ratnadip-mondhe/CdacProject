@@ -27,7 +27,7 @@ return(
 
 </table>
 </div>
-  <div class="text-center"> <a href="#" class="btn btn-primary">Edit Profile</a></div>
+  <div class="text-center"> <a href="EditProfile" class="btn btn-primary">Edit Profile</a></div>
   </div>
 
   </div>
